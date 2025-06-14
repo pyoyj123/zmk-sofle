@@ -53,7 +53,7 @@
             display-name = "LAYER0";
         };
 
-        layer_1 {
+        left_hand {
             bindings = <
 &kp TILDE         &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp PG_UP      &kp F6  &kp F7  &kp F8  &kp F9          &kp F10          &kp PLUS
 &soft_off         &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp INS
@@ -65,7 +65,7 @@
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
-        layer_2 {
+        right_hand {
             bindings = <
 &kp ESC     &kp F1           &kp F2           &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6  &kp F7  &kp F8  &kp F9            &kp F10            &kp EQUAL
 &trans      &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &trans           &trans             &mmv MOVE_DOWN   &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DEL
@@ -74,7 +74,7 @@
 &kp C_MUTE  &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans  &trans  &trans  &trans            &trans
             >;
 
-            display-name = "layer1";
+            display-name = "right_hand";
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
