@@ -69,10 +69,10 @@
         layer_2 {
             bindings = <
 &kp TILDE         &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp PG_UP      &kp F6  &kp F7  &kp F8  &kp F9          &kp F10          &kp PLUS
-&trans            &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp INS
+&soft_off         &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp INS
 &trans            &trans  &trans  &trans  &trans  &trans    &kp HOME       &trans  &trans  &trans  &trans          &trans           &kp PIPE
-&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans    &kp END        &trans  &trans  &trans  &soft_off       &trans           &trans
-&bootloader       &trans  &trans  &trans  &trans  &trans    &mkp LCLK      &trans  &trans  &trans  &trans          &trans
+&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans    &kp END        &trans  &trans  &trans  &trans          &trans           &trans
+&bootloader       &trans  &trans  &trans  &trans  &trans    &mkp RCLK      &trans  &trans  &trans  &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
