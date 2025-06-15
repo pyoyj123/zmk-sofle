@@ -18,9 +18,14 @@ include:
   # - board: nice_nano_v2
   #   shield: corne_right nice_oled
 
-  - board: nice_nano_v2
-    shield: sofle_left nice_view_adapter nice_oled
-    shield_root: board/shileds
-  - board: nice_nano_v2
-    shield: sofle_right nice_view_adapter nice_oled
-    shiled_root: boards/shields
+  # - board: nice_nano_v2
+  #   shield: eyelash_sofle_left nice_view_adapter nice_oled
+  # - board: nice_nano_v2
+  #   shield: eyelash_sofle_right nice_view_adapter nice_oled
+
+  - board: eyelash_sofle_left
+    shield: nice_view_adapter nice_oled
+    artifact-name: eyelash_sofle_oled_left
+  - board: eyelash_sofle_right
+    shiled: nice_view_adapter nice_oled
+    artifact-name: eyelash_sofle_oled_right
