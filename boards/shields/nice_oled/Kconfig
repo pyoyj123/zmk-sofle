@@ -1,1 +1,3 @@
-
+config SHIELD_NICE_OLED
+  bool "Nice OLED display shield"
+  depends on ZMK_DISPLAY
