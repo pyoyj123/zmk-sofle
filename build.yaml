@@ -20,5 +20,7 @@ include:
 
   - board: nice_nano_v2
     shield: sofle_left nice_view_adapter nice_oled
+    shield_root: board/shileds
   - board: nice_nano_v2
     shield: sofle_right nice_view_adapter nice_oled
+    shiled_root: boards/shields
