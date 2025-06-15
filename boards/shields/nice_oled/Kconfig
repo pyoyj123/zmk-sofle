@@ -1,3 +1,5 @@
 config SHIELD_NICE_OLED
-  bool "Nice OLED display shield"
-  depends on ZMK_DISPLAY
+    def_bool $(shields_list_contains,nice_oled)
+
+config SHIELD_NICE_EPAPER
+    def_bool $(shields_list_contains,nice_epaper)
